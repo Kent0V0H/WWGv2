@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stetic-interface>
+  <configuration>
+    <images-root-path>..</images-root-path>
+  </configuration>
+  <import>
+    <widget-library name="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <widget-library name="../bin/Debug/WWG.exe" internal="true" />
+  </import>
+  <widget class="Gtk.Window" id="MainWindow" design-size="443 323">
+    <property name="MemberName" />
+    <property name="Title" translatable="yes">WWG v 2.0</property>
+    <property name="WindowPosition">Center</property>
+    <property name="AllowShrink">True</property>
+    <signal name="DeleteEvent" handler="OnDeleteEvent" after="yes" />
+    <child>
+      <widget class="Gtk.Fixed" id="fixed5">
+        <property name="MemberName" />
+        <property name="HasWindow">False</property>
+        <child>
+          <widget class="Gtk.Image" id="queenBeeImage">
+            <property name="MemberName" />
+            <property name="Visible">False</property>
+            <property name="Pixbuf">resource:WWG.Images.queenBee.png</property>
+          </widget>
+          <packing>
+            <property name="X">85</property>
+            <property name="Y">50</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Image" id="darkKnightImage">
+            <property name="MemberName" />
+            <property name="Visible">False</property>
+            <property name="Pixbuf">resource:WWG.Images.darkKnight.png</property>
+          </widget>
+          <packing>
+            <property name="X">85</property>
+            <property name="Y">50</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Image" id="vampireImage">
+            <property name="MemberName" />
+            <property name="Visible">False</property>
+            <property name="Pixbuf">resource:WWG.Images.vampire.png</property>
+          </widget>
+          <packing>
+            <property name="X">85</property>
+            <property name="Y">50</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Image" id="zombieImage">
+            <property name="MemberName" />
+            <property name="Visible">False</property>
+            <property name="Pixbuf">resource:WWG.Images.zombie.png</property>
+          </widget>
+          <packing>
+            <property name="X">85</property>
+            <property name="Y">50</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Image" id="malboroImage">
+            <property name="MemberName" />
+            <property name="Visible">False</property>
+            <property name="Pixbuf">resource:WWG.Images.malboro.png</property>
+          </widget>
+          <packing>
+            <property name="X">85</property>
+            <property name="Y">50</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Image" id="goblinImage">
+            <property name="MemberName" />
+            <property name="Visible">False</property>
+            <property name="Pixbuf">resource:WWG.Images.goblin.png</property>
+          </widget>
+          <packing>
+            <property name="X">85</property>
+            <property name="Y">50</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Image" id="impImage">
+            <property name="MemberName" />
+            <property name="Visible">False</property>
+            <property name="Pixbuf">resource:WWG.Images.imp.png</property>
+          </widget>
+          <packing>
+            <property name="X">85</property>
+            <property name="Y">50</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Image" id="killerFishImage">
+            <property name="MemberName" />
+            <property name="Visible">False</property>
+            <property name="Pixbuf">resource:WWG.Images.killerFish.png</property>
+          </widget>
+          <packing>
+            <property name="X">85</property>
+            <property name="Y">50</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Image" id="wizardImage">
+            <property name="MemberName">wizardImage</property>
+            <property name="Visible">False</property>
+            <property name="Pixbuf">resource:WWG.Images.wizard.png</property>
+          </widget>
+          <packing>
+            <property name="X">85</property>
+            <property name="Y">50</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Image" id="dragonImage">
+            <property name="MemberName" />
+            <property name="Visible">False</property>
+            <property name="Pixbuf">resource:WWG.Images.dragon.png</property>
+          </widget>
+          <packing>
+            <property name="X">85</property>
+            <property name="Y">50</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="monsterLabel">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">-- monster --</property>
+          </widget>
+          <packing>
+            <property name="X">185</property>
+            <property name="Y">65</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="hpLabel">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">HP:</property>
+          </widget>
+          <packing>
+            <property name="X">33</property>
+            <property name="Y">173</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="mpLabel">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">MP:</property>
+          </widget>
+          <packing>
+            <property name="X">33</property>
+            <property name="Y">203</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="rcLabel">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">RC:</property>
+          </widget>
+          <packing>
+            <property name="X">33</property>
+            <property name="Y">233</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="hp2Label">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">--</property>
+          </widget>
+          <packing>
+            <property name="X">65</property>
+            <property name="Y">173</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="mp2Label">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">--</property>
+          </widget>
+          <packing>
+            <property name="X">65</property>
+            <property name="Y">203</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="rc2Label">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">--</property>
+          </widget>
+          <packing>
+            <property name="X">65</property>
+            <property name="Y">233</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="moveLabel">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">choose move:</property>
+          </widget>
+          <packing>
+            <property name="X">225</property>
+            <property name="Y">170</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="moveButton">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">Use -&gt;</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="OnMoveButtonClicked" after="yes" />
+          </widget>
+          <packing>
+            <property name="X">225</property>
+            <property name="Y">205</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.ComboBox" id="combobox1">
+            <property name="MemberName" />
+            <property name="IsTextCombo">True</property>
+            <property name="Items" translatable="yes">Use spell!
+Use sword!
+Use HP potion!
+Use MP potion!</property>
+            <property name="Active">0</property>
+          </widget>
+          <packing>
+            <property name="X">280</property>
+            <property name="Y">205</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="damagePLabel">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">p:</property>
+          </widget>
+          <packing>
+            <property name="X">325</property>
+            <property name="Y">65</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="damageLabel">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">damage:</property>
+          </widget>
+          <packing>
+            <property name="X">325</property>
+            <property name="Y">40</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="use2Label">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">e move .....</property>
+          </widget>
+          <packing>
+            <property name="X">35</property>
+            <property name="Y">20</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="damageELabel">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">e:</property>
+          </widget>
+          <packing>
+            <property name="X">325</property>
+            <property name="Y">90</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="useLabel">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">p move .....</property>
+          </widget>
+          <packing>
+            <property name="X">225</property>
+            <property name="Y">245</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="damageE2Label">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">.....</property>
+          </widget>
+          <packing>
+            <property name="X">350</property>
+            <property name="Y">90</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="damageP2Label">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">.....</property>
+          </widget>
+          <packing>
+            <property name="X">350</property>
+            <property name="Y">65</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+  <widget class="Gtk.Window" id="WWG.IntroWindow" design-size="322 294">
+    <property name="MemberName" />
+    <property name="Title" translatable="yes">WWG v 2.0</property>
+    <property name="WindowPosition">Mouse</property>
+    <property name="AllowShrink">True</property>
+    <signal name="DeleteEvent" handler="OnDeleteEvent" after="yes" />
+    <child>
+      <widget class="Gtk.Fixed" id="fixed1">
+        <property name="MemberName" />
+        <property name="HasWindow">False</property>
+        <child>
+          <widget class="Gtk.Image" id="image1">
+            <property name="MemberName" />
+            <property name="Pixbuf">resource:WWG.Images.wiz-hat.png</property>
+          </widget>
+          <packing>
+            <property name="X">57</property>
+            <property name="Y">10</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="playButton">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">Play</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="OnPlayButtonClicked" />
+          </widget>
+          <packing>
+            <property name="X">22</property>
+            <property name="Y">142</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="exitButton">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">Exit</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="OnExitButtonClicked" />
+          </widget>
+          <packing>
+            <property name="X">265</property>
+            <property name="Y">142</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</stetic-interface>

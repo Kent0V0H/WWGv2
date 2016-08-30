@@ -1,0 +1,17 @@
+/home/kent/Desktop/cs/proj/WWG/WWG/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/kent/Desktop/cs/proj/WWG/WWG/obj/x86/Debug/WWG.gtk-gui.gui.stetic
+/home/kent/Desktop/cs/proj/WWG/WWG/obj/x86/Debug/WWG.Images.darkKnight.png
+/home/kent/Desktop/cs/proj/WWG/WWG/obj/x86/Debug/WWG.Images.dragon.png
+/home/kent/Desktop/cs/proj/WWG/WWG/obj/x86/Debug/WWG.Images.goblin.png
+/home/kent/Desktop/cs/proj/WWG/WWG/obj/x86/Debug/WWG.Images.killerFish.png
+/home/kent/Desktop/cs/proj/WWG/WWG/obj/x86/Debug/WWG.Images.malboro.png
+/home/kent/Desktop/cs/proj/WWG/WWG/obj/x86/Debug/WWG.Images.queenBee.png
+/home/kent/Desktop/cs/proj/WWG/WWG/obj/x86/Debug/WWG.Images.vampire.png
+/home/kent/Desktop/cs/proj/WWG/WWG/obj/x86/Debug/WWG.Images.wizard.png
+/home/kent/Desktop/cs/proj/WWG/WWG/obj/x86/Debug/WWG.Images.wiz-hat.png
+/home/kent/Desktop/cs/proj/WWG/WWG/obj/x86/Debug/WWG.Images.zombie.png
+/home/kent/Desktop/cs/proj/WWG/WWG/obj/x86/Debug/WWG.Images.imp.png
+/home/kent/Desktop/cs/proj/WWG/WWG/bin/Debug/WWG.exe.mdb
+/home/kent/Desktop/cs/proj/WWG/WWG/bin/Debug/WWG.exe
+/home/kent/Desktop/cs/proj/WWG/WWG/obj/x86/Debug/WWG.exe
+/home/kent/Desktop/cs/proj/WWG/WWG/obj/x86/Debug/WWG.exe.mdb
