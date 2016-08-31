@@ -1,4 +1,6 @@
-﻿using System;
+//KWVH
+
+using System;
 using Gtk;
 
 namespace WWG
